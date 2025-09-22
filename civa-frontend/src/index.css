@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.loading {
+  text-align: center;
+  color: #3498db;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #2980b9;
+}
+
+.bus-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.bus-table thead {
+  background-color: #3498db;
+  color: white;
+}
+
+.bus-table th,
+.bus-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.bus-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  border-color: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+}
