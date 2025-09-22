@@ -1,4 +1,4 @@
-package com.example.civa.security;
+package com.example.civa.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
