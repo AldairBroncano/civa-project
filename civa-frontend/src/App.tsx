@@ -32,7 +32,7 @@ function App() {
   const [busById, setBusById] = useState<Bus | null>(null);
 
   useEffect(() => {
-    fetch(`http://localhost:8080/api/bus?page=${page}&size=${size}`)
+    fetch(`http://localhost:8080/api/buses?page=${page}&size=${size}`)
       .then((response) => response.json())
       .then((data: PageResponse) => {
         setBuses(data.content);
@@ -47,7 +47,7 @@ function App() {
 
   const handleSearch = () => {
     if (!searchId) return;
-    fetch(`http://localhost:8080/api/bus/${searchId}`)
+    fetch(`http://localhost:8080/api/buses/${searchId}`)
       .then((res) => {
         if (!res.ok) throw new Error("No se encontró el bus");
         return res.json();
