@@ -9,7 +9,15 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
-
+/**
+ * Configuración de seguridad de la aplicación.
+ *
+ * Esta clase define usuarios en memoria y establece las reglas
+ * de autorización para los endpoints de la API usando Spring Security.
+ *
+ * @author Aldair Broncano
+ * @version 1.0.0
+ */
 @Configuration
 public class SecurityConfig {
 

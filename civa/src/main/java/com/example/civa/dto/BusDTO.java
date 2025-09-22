@@ -5,6 +5,15 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+/**
+ * DTO para representar la información de un bus.
+ * Incluye datos básicos como número, placa, características,
+ * marca asociada, estado y fecha de creación.
+ *
+ * @author Aldair Broncano
+ * @version 1.0.0
+ */
+
 @Data
 @AllArgsConstructor
 public class BusDTO {

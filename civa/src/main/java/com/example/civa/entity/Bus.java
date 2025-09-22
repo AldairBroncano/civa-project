@@ -6,6 +6,17 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+/**
+ * Entidad que representa un bus en el sistema.
+ * Contiene información sobre número, placa, características,
+ * marca, estado y fecha de creación.
+ *
+ * Se persiste en la tabla "buses".
+ *
+ * @author Aldair Broncano
+ * @version 1.0.0
+ */
+
 @Data
 @Entity
 @Table(name = "buses")
