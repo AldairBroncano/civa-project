@@ -5,7 +5,7 @@ spring:
   application:
     name: civa
   datasource:
-    url: jdbc:postgresql://localhost:5432/busesdb?serverTimezone=UTC
+    url: jdbc:postgresql://localhost:5432/buses_qa?serverTimezone=UTC
     username: postgres
     password: sql
   jpa:
